@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Roboto+Slab:wght@200&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'My Soul', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul{
+    height: 10vh;
+    background-color: rgb(29, 19, 19);
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    padding: 0 2em;
+    font-weight: bolder;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.brand img{
+    width: 2.5em;
+    padding: 0 .5em;
+}
+
+.container{
+    min-height: 75vh;
+    width: 90vw;
+    /* background-color: rgb(238, 238, 109); */
+    border-radius: .6em;
+    color: white;
+
+    display: flex;
+    margin: 1em auto;
+    padding: 1em 2em;
+    background-image: url('bg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height: 15vh;
+    background-color: rgb(18, 12, 12);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: .6em;
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 .2em;
+}
+
+#myProgressBar{
+    width: 90vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 8vh;
+    background-color: rgb(154, 191, 191);
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 2em;
+    border-radius: 2em;
+
+}
+
+.songImage{
+    width: 4em;
+    height: 2.5em;
+    padding-right: 2em;
+
+}
+
+.songName{
+    font-size: larger;
+}
+
+.timeStamp{
+    padding: 0 1em;
+}
+
+.timeStamp i{
+    padding-left: 1em;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 5vw;
+
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity .3s ease-in;
+    width: 3em;
+    height: 1.5em; 
+    padding-top: 1.5em;
+    padding-right: 1em;
+}
+.songInfo span{
+    font-size: larger;
+    font-weight: bolder;
+}

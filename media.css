@@ -1,0 +1,624 @@
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .brand{
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+    .songImage{
+        width: 2.5em;
+        height: 1.5em;
+        padding: 0 1em;
+    
+    }
+    .songItem{
+        width: 70vw;
+    }
+
+    .songName{
+        font-size: larger;
+    }
+
+    .timeStamp{
+        padding: 0 2em;
+    }
+    .songItemPlay{
+        padding: 0 1em;
+    }
+
+    .container h1{
+        color: rgb(27, 157, 144);
+    }
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 2em;
+        height: 1em; 
+        padding-top: 1em;
+        padding-right: .5em;
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(77, 128, 145);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 2.5em;
+        height: 1.5em;
+        padding: 0 1em;
+    
+    }
+    .songItem{
+        width: 70vw;
+    }
+
+    .songName{
+        font-size: larger;
+    }
+
+    .timeStamp{
+        padding: 0 2em;
+    }
+    .songItemPlay{
+        padding: 0 1em;
+    }
+
+    .container{
+        width: 86vw;
+        margin: .6em auto;
+    }
+
+    .container h1{
+        color: rgb(194, 194, 68);
+    }
+    .songInfo{
+        left: 0;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 2em;
+        height: 1em; 
+        padding-top: 1em;
+        padding-right: .5em;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: rgb(140, 84, 170);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 2.5em;
+        height: 1.8em;
+        padding: 0 1em;
+    
+    }
+    .songItem{
+        width: 70vw;
+    }
+
+    .timeStamp{
+        padding: 0 2em;
+    }
+    .songItemPlay{
+        padding: 0 1em;
+    }
+
+    .container{
+        width: 82vw;
+        margin: .5em auto;
+    }
+
+    .container h1{
+        color: rgb(43, 91, 162);
+        padding: 0 2em;
+    }
+    .songInfo{
+        left: 0;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 2em;
+        height: 1em; 
+        padding-top: 1em;
+        padding-right: .5em;
+    }
+    #myProgressBar{
+        padding-top: 0.2em;
+        width: 80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: .6em;
+    }
+    .icons i{
+        font-size: large;
+        cursor: pointer;
+    }
+    .songInfo span{
+        font-size: medium;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    body {
+      background-color: rgb(216, 207, 86);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        padding: 0 1.5em;
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 2.5em;
+        height: 1.8em;
+        padding: 0 1em;
+    
+    }
+    .songItem{
+        width: 75vw;
+    }
+
+    .timeStamp{
+        padding: 0 .5em;
+    }
+    .songItemPlay{
+        padding: 0 .2em;
+    }
+
+    .container{
+        width: 75vw;
+        margin: .5em auto;
+    }
+
+    .container h1{
+        align-self: center;
+        padding-left: 1em;
+        color: rgb(214, 117, 76);
+    }
+    .songInfo{
+        left: 30vw;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 1.5em;
+        height: .6em; 
+        padding-top: .1em;
+        padding-right: .5em;
+    }
+    #myProgressBar{
+        padding-top: 0.2em;
+        width: 80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 1.4em;
+    }
+    .icons i{
+        font-size: large;
+        cursor: pointer;
+    }
+    .songInfo span{
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .bottom{
+        width: 100vw;
+        height: 16vh;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    body {
+      background-color: rgb(150, 59, 166);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+    nav{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        padding: 0 1em;
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 2.5em;
+        height: 1.8em;
+        padding: 0 1em;
+    
+    }
+    .songItem{
+        width: 75vw;
+    }
+
+    .timeStamp{
+        padding: 0 .5em;
+    }
+    .songItemPlay{
+        padding: 0 .2em;
+    }
+
+    .container{
+        width: 75vw;
+        margin: .5em auto;
+    }
+
+    .container h1{
+        align-self: center;
+        padding-left: 1em;
+        color: rgb(197, 22, 24);
+    }
+    .songInfo{
+        left: 30vw;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 1.5em;
+        height: .6em; 
+        padding-top: .1em;
+        padding-right: .5em;
+    }
+    #myProgressBar{
+        width: 80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 1.4em;
+    }
+    .icons i{
+        font-size: large;
+        cursor: pointer;
+    }
+    .songInfo span{
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .bottom{
+        width: 100vw;
+        height: 16vh;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    body {
+      background-color: rgb(171, 66, 138);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+    nav{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        padding: 0 1em;
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 2em;
+        height: 1.5em;
+        padding: 0 .6em;
+    
+    }
+    .songItem{
+        width: 75vw;
+    }
+
+    .timeStamp{
+        padding: 0 .5em;
+    }
+    .songItemPlay{
+        padding: 0 .2em;
+    }
+
+    .container{
+        width: 75vw;
+        margin: .5em auto;
+    }
+
+    .container h1{
+        align-self: center;
+        padding-left: 1em;
+        color: rgb(177, 197, 22);
+    }
+    .songInfo{
+        left: 25vw;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 1.5em;
+        height: .6em; 
+        padding-top: .1em;
+        padding-right: .5em;
+    }
+    #myProgressBar{
+        width: 80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 1.4em;
+    }
+    .icons i{
+        font-size: medium;
+        cursor: pointer;
+    }
+    .songInfo span{
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .bottom{
+        width: 100vw;
+        height: 16vh;
+    }
+  }
+
+  @media only screen and (max-width: 313px) {
+    body {
+      background-color: rgb(171, 66, 103);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+    nav{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .5em;
+    }
+
+    li{
+        padding: 0 .8em;
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 2em;
+        height: 1.5em;
+        padding: 0 .6em;
+    
+    }
+    .songItem{
+        height: 8vh;
+        width: 78vw;
+     
+    }
+
+    .timeStamp{
+        padding: 0 .5em;
+    }
+    .songItemPlay{
+        padding: 0 .2em;
+    }
+
+    .container{
+        width: 75vw;
+        margin: .5em auto;
+    }
+
+    .container h1{
+        align-self: center;
+        padding-left: .6em;
+        color: rgb(100, 185, 26);
+    }
+    .songInfo{
+        left: 22vw;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 1.5em;
+        height: .6em; 
+        padding-top: .1em;
+        padding-right: .5em;
+    }
+    #myProgressBar{
+        width: 80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 1.4em;
+    }
+    .icons i{
+        font-size: medium;
+        cursor: pointer;
+    }
+    .songInfo span{
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .bottom{
+        width: 100vw;
+        height: 17vh;
+    }
+  }
+
+  @media only screen and (max-width: 292px) {
+    body {
+      background-color: rgb(171, 66, 66);
+      
+    }
+
+    .brand{
+        font-size: smaller;
+        
+    }
+    nav{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .brand img{
+        width: 2em;
+        padding: 0 .3em;
+    }
+
+    li{
+        padding: 0 .6em;
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    .songImage{
+        width: 1.6em;
+        height: 1em;
+        padding: 0 .3em;
+    
+    }
+
+    .timeStamp{
+        padding: 0 .5em;
+    }
+    .songItemPlay{
+        padding: 0 .2em;
+    }
+    .songItem{
+        height: 10vh;
+        width: 80vw;
+    }
+
+    .container{
+        width: 73vw;
+        margin: .4em auto;
+    }
+
+    .container h1{
+        align-self: center;
+        padding-left: .5em;
+        color: rgb(26, 185, 87);
+    }
+    .songInfo{
+        left: 22vw;
+    }
+
+    .songInfo img{
+        opacity: 0;
+        transition: opacity .3s ease-in;
+        width: 1.5em;
+        height: .6em; 
+        padding-top: .1em;
+        padding-right: .5em;
+    }
+    #myProgressBar{
+        width: 80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 1.4em;
+    }
+    .icons i{
+        font-size: medium;
+        cursor: pointer;
+    }
+    .songInfo span{
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .bottom{
+        width: 100vw;
+        height: 17vh;
+    }
+  }
